@@ -17,4 +17,6 @@ const joinMetting = () => {
     }
   })();
 };
-const createMeeting = () => {};
+const createMeeting = () => {
+  window.location.href = "/create";
+};

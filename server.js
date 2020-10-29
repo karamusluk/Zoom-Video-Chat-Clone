@@ -21,8 +21,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/create", (req, res) => {
-  //   res.redirect(`/${uuidV4()}`);
-  res.status(200).send("In create");
+  res.redirect(`/${uuidV4()}`);
 });
 
 app.get("/validateName/:roomName", (req, res) => {
