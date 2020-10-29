@@ -1,0 +1,7 @@
+{
+  "name": "Zoom Video/Chat Clone",
+  "description": "This is a working clone of Zoom with video conferencing and chatting peer-to-peer.",
+  "repository": "https://github.com/karamusluk/Zoom-Video-Chat-Clone",
+  "logo": "https://seeklogo.com/images/Z/zoom-icon-logo-C552F99BAC-seeklogo.com.png",
+  "keywords": ["node", "express", "zoom", "peerjs", "clone", "socketio"]
+}
