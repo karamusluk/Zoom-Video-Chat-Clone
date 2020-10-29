@@ -3,6 +3,8 @@ const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 myVideo.muted = true;
 
+// while deploying change port to 443,
+// on development make it 3030
 var peer = new Peer(undefined, {
   path: "/peerjs",
   host: "/",
@@ -170,9 +172,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 const leaveMeeting = () => {
-  const html = `
-        <i class="fas fa-microphone"></i>
-        <span>Mute</span>
-      `;
-  document.querySelector(".main__mute_button").innerHTML = html;
+  window.location.href = "/";
 };
